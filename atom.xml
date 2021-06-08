@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>slin的博客</title>
   
+  <subtitle>java</subtitle>
+  <link href="http://myzsl.xyz/atom.xml" rel="self"/>
   
-  <link href="http://www.myzsl.xyz/atom.xml" rel="self"/>
-  
-  <link href="http://www.myzsl.xyz/"/>
+  <link href="http://myzsl.xyz/"/>
   <updated>2021-06-08T12:40:37.980Z</updated>
-  <id>http://www.myzsl.xyz/</id>
+  <id>http://myzsl.xyz/</id>
   
   <author>
     <name>slin</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://www.myzsl.xyz/2021/06/08/hello-world/"/>
-    <id>http://www.myzsl.xyz/2021/06/08/hello-world/</id>
+    <link href="http://myzsl.xyz/2021/06/08/hello-world/"/>
+    <id>http://myzsl.xyz/2021/06/08/hello-world/</id>
     <published>2021-06-08T12:40:37.980Z</published>
     <updated>2021-06-08T12:40:37.980Z</updated>
     
