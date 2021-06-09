@@ -6,7 +6,7 @@
   <link href="http://myzsl.xyz/atom.xml" rel="self"/>
   
   <link href="http://myzsl.xyz/"/>
-  <updated>2021-06-08T12:40:37.980Z</updated>
+  <updated>2021-06-09T00:50:53.166Z</updated>
   <id>http://myzsl.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java集合</title>
+    <link href="http://myzsl.xyz/2021/06/09/java-ji-he/"/>
+    <id>http://myzsl.xyz/2021/06/09/java-ji-he/</id>
+    <published>2021-06-09T00:46:07.000Z</published>
+    <updated>2021-06-09T00:50:53.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;List&quot;&gt;&lt;a href=&quot;#List&quot; class=&quot;headerlink&quot; title=&quot;List&quot;&gt;&lt;/a&gt;List&lt;/h2&gt;&lt;h3 id=&quot;1、常用实现类&quot;&gt;&lt;a href=&quot;#1、常用实现类&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://myzsl.xyz/categories/Java/"/>
+    
+    
+    <category term="集合" scheme="http://myzsl.xyz/tags/%E9%9B%86%E5%90%88/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
