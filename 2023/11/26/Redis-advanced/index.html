@@ -22,20 +22,19 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="题目给定一个非负整数 c ，你要判断是否存在两个整数 a 和 b，使得 a^2 + b^2 &#x3D; c 。">
+  <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="平方数之和">
-<meta property="og:url" content="http://example.com/2023/11/26/judge-square-sum/index.html">
+<meta property="og:title" content="Redis进阶">
+<meta property="og:url" content="http://example.com/2023/11/26/Redis-advanced/index.html">
 <meta property="og:site_name" content="Paul-Blog">
-<meta property="og:description" content="题目给定一个非负整数 c ，你要判断是否存在两个整数 a 和 b，使得 a^2 + b^2 &#x3D; c 。">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-11-26T10:59:37.000Z">
-<meta property="article:modified_time" content="2023-11-26T10:59:37.000Z">
+<meta property="article:published_time" content="2023-11-26T13:12:50.000Z">
+<meta property="article:modified_time" content="2023-11-26T13:12:50.000Z">
 <meta property="article:author" content="Plua Htims">
-<meta property="article:tag" content="双指针">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/2023/11/26/judge-square-sum/">
+<link rel="canonical" href="http://example.com/2023/11/26/Redis-advanced/">
 
 
 <script id="page-configurations">
@@ -48,7 +47,7 @@
   };
 </script>
 
-  <title>平方数之和 | Paul-Blog</title>
+  <title>Redis进阶 | Paul-Blog</title>
   
 
 
@@ -192,7 +191,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/11/26/judge-square-sum/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2023/11/26/Redis-advanced/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpeg">
@@ -205,7 +204,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          平方数之和
+          Redis进阶
         </h1>
 
         <div class="post-meta">
@@ -215,7 +214,7 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2023-11-26 18:59:37" itemprop="dateCreated datePublished" datetime="2023-11-26T18:59:37+08:00">2023-11-26</time>
+              <time title="Created: 2023-11-26 21:12:50" itemprop="dateCreated datePublished" datetime="2023-11-26T21:12:50+08:00">2023-11-26</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -223,7 +222,7 @@
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E7%AE%97%E6%B3%95/" itemprop="url" rel="index"><span itemprop="name">算法</span></a>
+                  <a href="/categories/Redis/" itemprop="url" rel="index"><span itemprop="name">Redis</span></a>
                 </span>
             </span>
 
@@ -236,8 +235,8 @@
       </span>
       <span class="post-meta-item-text">Disqus: </span>
     
-    <a title="disqus" href="/2023/11/26/judge-square-sum/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/11/26/judge-square-sum/" itemprop="commentCount"></span>
+    <a title="disqus" href="/2023/11/26/Redis-advanced/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2023/11/26/Redis-advanced/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -247,14 +246,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">Symbols count in article: </span>
-              <span>896</span>
+              <span>0</span>
             </span>
             <span class="post-meta-item" title="Reading time">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">Reading time &asymp;</span>
-              <span>2 mins.</span>
+              <span>1 mins.</span>
             </span>
 
         </div>
@@ -266,22 +265,18 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>给定一个非负整数 <code>c</code> ，你要判断是否存在两个整数 <code>a</code> 和 <code>b</code>，使得 <code>a^2 + b^2 = c</code> 。</p>
-<span id="more"></span>
-
-<h3 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h3><p><strong>示例 1：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入：c = 5</span><br><span class="line">输出：true</span><br><span class="line">解释：1 * 1 + 2 * 2 = 5</span><br></pre></td></tr></table></figure>
-
-<p><strong>示例 2：</strong></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：c = 3</span><br><span class="line">输出：false</span><br></pre></td></tr></table></figure>
-
-<h3 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h3><p>可以看成是在元素为 0~target 的有序数组中查找两个数，使得这两个数的平方和为 target，如果能找到，则返回 true，表示 target 是两个整数的平方和。</p>
-<p>本题和 167. Two Sum II - Input array is sorted 类似，只有一个明显区别：一个是和为 target，一个是平方和为 target。本题同样可以使用双指针得到两个数，使其平方和为 target。</p>
-<p>本题的关键是右指针的初始化，实现剪枝，从而降低时间复杂度。设右指针为 x，左指针固定为 0，为了使 02 + x2 的值尽可能接近 target，我们可以将 x 取为 sqrt(target)。</p>
-<p>因为最多只需要遍历一次 0~sqrt(target)，所以时间复杂度为 O(sqrt(target))。又因为只使用了两个额外的变量，因此空间复杂度为 O(1)。</p>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">JudgeSquareSum</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(judgeSquareSum(<span class="number">2</span>));</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">judgeSquareSum</span><span class="params">(<span class="type">int</span> c)</span> &#123;</span><br><span class="line">        <span class="comment">//非负整数</span></span><br><span class="line">        <span class="keyword">if</span> (c &lt; <span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//左指针</span></span><br><span class="line">        <span class="type">long</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="comment">//右指针，目标开平方</span></span><br><span class="line">        <span class="type">long</span> <span class="variable">j</span> <span class="operator">=</span> (<span class="type">long</span>) Math.sqrt(c);</span><br><span class="line">        <span class="keyword">while</span> (i &lt;= j)&#123;</span><br><span class="line">            <span class="type">long</span> <span class="variable">powSum</span> <span class="operator">=</span> i * i + j * j;</span><br><span class="line">            <span class="keyword">if</span> (powSum == c)&#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span> (powSum &gt; c)&#123;</span><br><span class="line">                j--;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                i++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="1db62c9ffcc266e8c387d9b163348b822f26b1384c42024ad0a0e4bed30fd5a0">e5918809c51cc7d03c0c2b5341b9ada323c5dd3f537749e8f6263f2aec8e57ed8750347d6437ca894e22bb9f56e6237707a24b9ad8dee26189e4606907acf0841e4c377a4d9f0e5866a4eed28379f83702666e60d6ce82cfd38238899e97eb5798ef30f3fb14b8591f92888d714e65261d0b1979d4dbd2676efe87f1e8b1b88ffa418b5d8b99ac3858c4595529265cb3692030e3bf725c29470414d6503a454f56d413524f4991d5e284ac29ffaee2c12b84e900f83b230edd3ffa546ae144f57090d62160b5f873163d0307708f9c995a9043cddddbb45a716cfdc97f02e1111aaa6f7dd6313a87494f395bce7abec7342671adac15d721af4381d3dcbd83bed526a6548ba6e25329dc76837763af7793756a527b753f4807966fa1b96c9c56de42d2c2a89862698afd9bab9544e6d121dec858d49f9d8394a30280c678c16973a674f0fbe8fce77df0d725cc284670343a7c8a1724c03f01f9d77acf186a026544fe34bfd681c223fa95baec8cca4e46708ff7ec50f6b76ebff3799a76a74abed210f084bcaa147f430debce552346f3a3201d3575b5507742bac0be9702bf897b7af68e3d5b4c565b9afdd89f66d4daa28ad61518389ff681f80da8fe829957f8fb3b61fb0472be149a79e9bfac1da76c32b7729e2a4491b7fe73492e463223fb94d4352b21776838fdced57fc0d85b9ee22918d11d52bd8e9d5132047fda7dd2da50eeaf9f33e07e08ac2b78375f7ee208a878e3d1289911bb71649d93f2a747c10473303064510e8bd5bca5b21247abef942d848646728e996d83c35345901f15af727a0b649ffb344ebb13b4101f7c7fe2cb1b065bcf7d8fde7c8beb6c3e38f49dedc9b06210debf61915b8cebeb0853bdbe7561b8bdee75d71ebb3f67362b02652f4e7ab932d61a06051d9122b9b18b83fb33385f8f2a5261173aba5784a2c010f06d9d6d78e05786bf80e96cb5d5e493d094542e027575e35848ead72460d6d7a0bd15b8f02bfd89691739417455d4b0ab0cd052b54c3e822446fd5a47a6b579a925f2664d2292cae55aa87d6da1cbdba6b02ba0a164867dd20f83b9d197f548274268c83bce9804fce499397a0ad8aa2478c6c44518a4907507fce2a26eb71d4dfdb21527c24e1ac2d7249d5a5aa77ceecbc4895339caded7ac19c8f3af4116cdc35f423dc490b88062fcccd460b21d9a2fa0fdb09bfb45873a210ee6ede4dc44079dddd8deed7ea647377a1651cedd812a48d1a25904d0c7017239a09b60a0b2a72836c1c992e185e5013cc5f3278cfbeed57b10fa719631a65a48563569eb4a0e627bde529dc38d9d6870ac7f977f6af927cf77b38dba45241f6fb4c0879a2c457c0585ebe3119d1bd1a56890afa6a512233c97a5530c1f9918319c45066a457d72850763aa1947bcec847284e565230dfa80c4dcb0e8554bef3cdc6f8aa928d303661306a3096cc71af47bae6fd21a6f328949a5ba9a1b49155f260a308b759e493aa0688720f5a7c844c1d01caf2f53b0aca9ee27daef498cfd3a8f659cc3dd1512627b04923a93613f72fa19a54aa629bd1e6fc16bcf4fe656b5c7cc1e896fe6251680a8022488ef8c3f2f47de9b2e7776dcb963d52cae3a58a4bee0d0f9e9eb0bc091e4783771d69d5e7515e6c7cee1992ca4ce94636ea1c55812a641e6d82054145716c4e7fc9c68f8ac418605779c01a8f50f6ec3fa1af54e00f612c413cdf5473536fe8a04a7f685865ddd1d1b3db1ebac53ec0beb08d62cc95744f575e97095d24ae7736aeefed0a0593f78fe8bacf94445937bc091db0ab21163844e3d7d37ea4261792d0e24966721714323c67a59cb6fdee6a0a28d32a6546f3ccd8c36524ec1ede62bbb85a610eb24fe61f67c2154d04aa6ffffa3fdde32e74c3a9aa46c58d3e5ba156f3b7bad88861a3abe723a0c631d931faa53bf9082e7487c75113888c0c5e0dc045eb6da5c547bf7c8623d0a9d20ea90ecd94f5c5d214686fe434b342ca0a91a599115f80ae2505cf14fd3dee8d98184a444330d1c930b390a6d48f860667a71f3424818ce7f157d756d370a21f5fc52020c0d6e245dbc8d6bd072df06ff82596b90990b1362b3f51af89420d814a83027b54f7111a61c3bc0dc89bc428eb57ecdf1f11ebbac5089c03a0e33a8b721f65c331769fbd419d14361867e67b905c97b7fd7f21307cddac636f5050b2355c0a951ede4410a021042472c347b31e5fea9ba9714ed856b472e32b32ec2576edf1589bf80fc736d5893d456f6ca4342e9c3187cff3cabb2b73e3e61231f8c5830278eed4a4d4e8e1867887153ea92a3690ad9236945a6365d9047f256e794834f92993971a1dd0f7edfe6b275f0cb77f129aaa5d3b50d620aa5cbd34baaec6b16f8f9ad29b0c0f8813a43583d718d67a686b6cb0f0ab680f39f9ac4db36a3817705cea93a9cb6821d6c3e8d308bba1c0f2090b93c0f1a30a9c7be9372a36e9b295113b5b56bc872cc461bcdc6dbc423e727241dcf1e3e3bea80f529f22a38db1c8a20704b84e1b7ba0d50b333c969a6ae1e46ab12610b974755d9fca6a1ec778b2e802490607b80daead8ed5ab5870ebe05891578d7ca3b7a55be313ce60dfdfaadf5d53b56426af3afc8167586faf322a205399def36b87da660826062f22470472a7c882fc5e2261653dfd88b81ba7f0d5a0c355cd0aa81278d15199b5e7b90665c0e2b59559b5584f515075f344fbc1b46bcc63cf5a0370fcfc95a75fcc38a457d7092b64a37f24f47a9699e3f015d186e11178ac60860cdbcba49e159165d66ae8efc94aad68dee370c66fec42d6d391a027c96ef5eb9492e70eb6c9cf4200f40adfe1f203fdda9dffd3e4eaf09c8dd2750959ae9b376674ad3be7ce064f1dea0c10688df33453e38bb313d3b25bd565da37b4964e803217577c61db1d0776245ad6021b8528736affd18c75f8ddf9ede95e7bbd91341b0d76b7b2e724621454b6992e9a20fcc751e9764fdac62f22a8a3de8c3241750bae8cb4237a85262a805589fe4ecc6c412ab83da1e0de4a6ed20bc289cc65c47e5198289e42b6bd08cc697cf6075254d6a879f48622ff42a04719c4d3a64e9fdfcb57599271b5727002d7097bcabb143727b14866231648947b7e8904f8bb188ddd42c1cfc1abd11fc06c31a7724ee313d5ffffb6bdf26124deaa5bc23399d1ed0448a48bd8117238f02daf9de9f476ec471e4231f1b6645c9996d85e36bed4a6a0e21f43a3ca9545a81ef20000d4318dc8e8375c4206bcf5fa9a4305ecb35e8aea0ed9d7ca2ae1995171f0026a39fa2fec7653d9cd2f44d899148200a671ad15b3f3b104bfbc2b046d75796111eba84ff661fc5d52e08b06612ed8016078325d3be3c42a74bf8bf194e73210259994a5cb31ddd059d4059ce23bade196c97f4dc003c7c142f2f6c3347a07a68a91cbf7f9c772be852ea8808058a99032c2da167d9e0d94ddff165092016d82a94930226add3578f043cd71d619f1c6766db17433604a3e61218d65f3f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
     </div>
 
     
@@ -289,9 +284,6 @@
     
 
       <footer class="post-footer">
-          <div class="post-tags">
-              <a href="/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" rel="tag"># 双指针</a>
-          </div>
 
         
 
@@ -299,13 +291,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/11/25/two-sum/" rel="prev" title="两数之和 II - 输入有序数组">
-      <i class="fa fa-chevron-left"></i> 两数之和 II - 输入有序数组
+    <a href="/2023/11/26/Redis/" rel="prev" title="Redis">
+      <i class="fa fa-chevron-left"></i> Redis
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2023/11/26/java-basics/" rel="next" title="Java基础">
-      Java基础 <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -371,7 +360,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E7%9B%AE"><span class="nav-number">1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%A4%BA%E4%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">示例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%A2%98%E8%A7%A3"><span class="nav-number">3.</span> <span class="nav-text">题解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">4.</span> <span class="nav-text">代码</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -518,9 +506,9 @@
 </script>
 <script>
   var disqus_config = function() {
-    this.page.url = "http://example.com/2023/11/26/judge-square-sum/";
-    this.page.identifier = "2023/11/26/judge-square-sum/";
-    this.page.title = "平方数之和";
+    this.page.url = "http://example.com/2023/11/26/Redis-advanced/";
+    this.page.identifier = "2023/11/26/Redis-advanced/";
+    this.page.title = "Redis进阶";
     };
   NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
     if (window.DISQUS) {
